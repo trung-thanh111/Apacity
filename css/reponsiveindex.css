@@ -1,0 +1,425 @@
+@media only screen and (max-width: 768px) {
+    .container-header{
+        height: 40px;
+    }
+    .search {
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+    }
+
+    .search img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .off_input {
+        display: none;
+    }
+
+    .dangnhap a {
+        font-size: 10px;
+        width: 50px;
+        display: block;
+
+    }
+
+    .dangky a {
+        font-size: 10px;
+        width: 40px;
+        display: block;
+
+    }
+
+    .form {
+        padding-left: 80px;
+    }
+
+    .menu {
+        z-index: 2;
+        position: relative;
+        top: 90px;
+         display: none;       
+        left: 40px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        height: 150px;
+        background-color: rgba(5, 7, 79, 0.93);
+        padding-left: 10px;
+        margin: 10px 0;
+
+    }
+
+    .menu ul li {
+        margin: 5px;
+        height: 20px;
+        text-align: center;
+        padding-left: 20%;
+    }
+    #menu {
+        width: 100%;
+        height: 180px;
+        padding-right: 8%;
+    }
+    .menu ul li a {
+        text-align: center;
+        font-size: 10px;
+        color: #ffffff;
+    }
+    .icon-tabar{
+        position: relative;
+        left: 80px;
+        font-size: 20px;
+        display: block;
+    }
+    .logo img{
+        width: 80px;
+        height: 40px;
+        right: 100px;
+        position: relative;
+    }
+    .menu-header {
+
+        height: 80px;
+    }
+
+    /* baner */
+    .btn button {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        bottom: 30px;
+        left: 41%;
+    }
+
+    .btn-2 {
+        margin: 0 7px 0 7px;
+
+    }
+
+    .nav_product {
+        display: flex;
+    }
+
+    .product-1 img,
+    .product-2 img,
+    .product-3 img {
+        width: 130px;
+        height: 90px;
+    }
+
+    .product-2 {
+        margin: 0 15px 0 15px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .product-hot img {
+        width: 180px;
+        height: 100px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    span {
+        font-size: 10px;
+
+    }
+
+    del {
+        font-size: 10px;
+    }
+
+    .hot-5,
+    .hot-6 {
+        width: 180px;
+    }
+
+    .hot-1 {
+        padding-left: 30px;
+    }
+
+    .hot-2,
+    .hot-3,
+    .hot-5 {
+        margin: 0 15px 0 15px;
+    }
+
+    .btn-product button {
+        font-size: 9px;
+        height: 20px;
+        width: 70px;
+    }
+
+    .promotion-news1 img,
+    .promotion-news2 img,
+    .promotion-news3 img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .promotion-news1,
+    .promotion-news2,
+    .promotion-news3 {
+        height: 200px;
+        position: relative;
+        bottom: 60px;
+
+    }
+
+    .promotion-news1 h4,
+    .promotion-news2 h4,
+    .promotion-news3 h4 {
+        font-size: 12px;
+    }
+
+    .promotion p {
+        color: #ffffff;
+        font-size: 10px;
+
+
+    }
+
+    .background {
+        height: 200px;
+    }
+
+    .promotion {
+        height: 200px;
+    }
+
+    .news-product {
+        margin-left: 0;
+    }
+
+    .menu-product {
+        margin-right: 10px;
+        width: 150px;
+
+
+    }
+
+    .menu-product ul {
+        padding-left: 10px;
+
+    }
+
+    .menu-product ul li {
+        height: 30px;
+        width: 110px;
+        padding-top: 20px;
+
+    }
+
+    .menu-product ul li a {
+        font-size: 10px;
+    }
+
+    .outstd-1 img,
+    .outstd-2 img,
+    .outstd-3 img,
+    .outstd-4 img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .outstd-1,
+    .outstd-2,
+    .outstd-3,
+    .outstd-4 {
+        width: 150px;
+        height: 180px;
+    }
+
+    .outstd-1,
+    .outstd-3 {
+        margin-right: 15px;
+    }
+
+    .background-2 {
+        height: 300px;
+    }
+
+    .feedbackto-user img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .feedbackto-user {
+        width: 400px;
+        height: 300px;
+        margin-left: 0;
+        text-align: center;
+        padding-left: 40px;
+    }
+
+    .btn-chuyen {
+        margin-left: 44%;
+        margin-top: 0;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .btn-chuyen button {
+        margin-right: 10px;
+
+    }
+
+    .promotion2-st5 h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .right-arrow button,
+    .left-arrow button {
+        width: 20px;
+        height: 20px;
+        font-size: 15px;
+        margin-right: 15px;
+    }
+
+    .product-pro1,
+    .product-pro3 {
+        margin-left: 20px;
+    }
+
+    .product-pro1,
+    .product-pro2 {
+        margin-bottom: 20px;
+    }
+
+    .product-pro1,
+    .product-pro2,
+    .product-pro3,
+    .product-pro4 {
+        width: 220px;
+        height: 230px;
+    }
+
+    .product-pro1 img,
+    .product-pro2 img,
+    .product-pro3 img,
+    .product-pro4 img {
+        width: 200px;
+        height: 150px;
+        border-radius: 5px;
+    }
+
+    .product-pro1 p,
+    .product-pro2 p,
+    .product-pro3 p,
+    .product-pro4 p {
+        width: 200px;
+    }
+
+    .brand-1 img,
+    .brand-2 img,
+    .brand-3 img,
+    .brand-4 img {
+        width: 120px;
+        height: 50px;
+    }
+
+    /* footer */
+    .container-footer {
+
+        height: 220px;
+
+    }
+
+    .logo-ft {
+        width: 100px;
+    }
+
+    .logo-ft img {
+        width: 70px;
+        height: 40px;
+    }
+
+    .ft-1,
+    .ft-2,
+    .ft-3,
+    .ft-4,
+    .ft-5 {
+        margin-top: 20px;
+    }
+
+    .address img,
+    .email img,
+    .phone-number img {
+        width: 10px;
+    }
+
+    .address address {
+        font-size: 10px;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .phone-number {
+        font-size: 10px;
+        width: 100px;
+        margin-bottom: 10px;
+
+    }
+
+    .email {
+        font-size: 10px;
+        width: 120px;
+        margin-bottom: 10px;
+    }
+
+    .ft-1 {
+        width: 100px;
+        height: 200px;
+
+
+    }
+
+    .ft-2 h4 span,
+    .ft-3 h4 span,
+    .ft-4 h4 span,
+    .ft-5 h4 span {
+        margin-left: 10px;
+        font-size: 12px;
+
+    }
+
+    .ft-2 ul li a,
+    .ft-3 ul li a,
+    .ft-4 ul li a,
+    .ft-5 ul li a {
+        font-size: 8px;
+
+    }
+
+    .ft-2 ul li,
+    .ft-3 ul li,
+    .ft-4 ul li,
+    .ft-5 ul li {
+        margin-bottom: 5px;
+    }
+
+    .ft-2 ul,
+    .ft-3 ul,
+    .ft-4 ul,
+    .ft-5 ul {
+        padding-left: 20px;
+    }
+
+    .footer-banquyen {
+        height: 30px;
+        padding-top: 5px;
+    }
+
+    .footer-banquyen p {
+        font-size: 8px;
+    }
+
+}

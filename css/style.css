@@ -1,0 +1,516 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-header {
+    box-sizing: border-box;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #252424;
+    align-items: center;
+}
+
+.form {
+    color: #ffffff;
+    display: flex;
+
+}
+
+input {
+    border-radius: 15px;
+    width: 500px;
+    height: 25px;
+    padding-left: 15px;
+}
+
+.search {
+    padding-left: 350px;
+}
+
+.search img {
+    position: relative;
+    top: 5px;
+    right: 35px;
+
+}
+
+.dangky a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.dangky a:hover {
+    cursor: pointer;
+    color: rgba(10, 224, 57, 0.919);
+}
+
+.dangnhap a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.dangnhap a:hover {
+    cursor: pointer;
+    color: rgba(10, 224, 57, 0.919);
+}
+
+.menu-header {
+    box-sizing: border-box;
+    display: flex;
+    height: 110px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+
+}
+.menu ul li{
+    width: 160px;
+    height: 50px;
+    margin-top: 30px;
+
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+    padding-left: 40px;
+    
+}
+.menu ul li a:hover{
+    color: #bda87f;
+}
+.icon-tabar{
+    display: none;
+}
+/* body */
+ 
+
+.baner1 img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.btn button {
+    position: relative;
+    left: 46%;
+    bottom: 70px;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    background-color: #c99429;
+    color: #ffffff;
+}
+
+.btn-2 {
+    position: relative;
+    margin: 0 15px 0 15px;
+
+}
+
+.nav-product {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-product img {
+    border-radius: 5px;
+}
+
+.product-2 {
+    margin: 0 30px 0 30px;
+}
+
+h2 {
+    font-size: larger;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-bottom: 50px;
+    color: #1f5307;
+}
+
+.product-hot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+
+.product-hot div {
+    margin-bottom: 40px;
+}
+
+.product-hot del,
+.product-hot span {
+    margin-right: 15px;
+}
+
+.hot-2,
+.hot-5 {
+    margin: 0 30px 0 30px;
+}
+
+.product-hot img {
+    width: 370px;
+    height: 280px;
+    border-radius: 5px;
+
+}
+
+span {
+    color: red;
+    text-align: center;
+}
+
+.btn-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-product button {
+    border: 2px solid #bda87f;
+    width: 135px;
+    height: 40px;
+    font-size: large;
+    color: #bda87f;
+}
+
+.btn-product button:hover {
+    background-color: #bda87f;
+    color: #ffffff;
+}
+
+.background {
+    background-image: url("../image/canho.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 380px;
+    opacity: 0.5;
+    z-index: -1;
+    position: absolute;
+}
+
+.promotion {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    opacity: 2;
+}
+
+.promotion-news1,
+.promotion-news2,
+.promotion-news3 {
+    position: relative;
+    width: 295px;
+    height: 305px;
+    justify-content: center;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 110px;
+
+}
+
+.promotion h4 {
+    color: #b48932f2;
+}
+
+.promotion p {
+    color: #ffffff;
+}
+
+.product-outstd img {
+    width: 370px;
+    height: 280px;
+    border-radius: 5px;
+
+}
+
+.menu-product {
+    display: block;
+    justify-content: flex-start;
+    width: 500px;
+    box-sizing: border-box;
+    margin-right: 70px;
+}
+
+.menu-product ul li {
+    list-style: none;
+    text-align: center;
+    border: 0.5px solid #ffffff;
+    height: 60px;
+    padding-top: 40px;
+    background-color: rgba(235, 239, 241, 0.962);
+}
+
+.menu-product ul li a {
+    text-decoration: none;
+    color: #494646e8;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.news-product {
+    display: flex;
+    position: relative;
+    margin-left: 175px;
+}
+
+.product-outstd {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.outstd-1,
+.outstd-3 {
+    margin-right: 30px;
+}
+
+.product-outstd div {
+    margin-bottom: 30px;
+}
+
+.menu-product ul li:hover {
+    cursor: pointer;
+    background-color: #bda87f;
+    color: #ffffff;
+}
+
+.product-outstd del,
+.product-outstd span {
+    margin-right: 15px;
+}
+
+.background-2 {
+    background-image: url("../image/banhoc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 520px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.feedbackto-user img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-top: 8%;
+
+}
+
+.feedbackto-user {
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 315px;
+
+}
+
+.btn-chuyen {
+    margin-left: 47%;
+    position: relative;
+    margin-top: 10%;
+    color: rgba(151, 151, 151, 0.922);
+}
+
+.btn-chuyen button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 30px;
+}
+
+.btn-chuyen button:hover {
+    cursor: pointer;
+    background-color: #eca009f5;
+}
+
+.promotion2-st5 h2 {
+    margin-top: 100px;
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+}
+
+.right-arrow button,
+.left-arrow button {
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    color: #bda87f;
+    margin-right: 30px;
+    border: 1px solid #bda87f;
+    font-size: large;
+}
+
+.right-arrow button:hover,
+.left-arrow button:hover {
+    background-color: #bda87f;
+    color: #ffffff;
+}
+
+.product-pro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.product-pro1 img,
+.product-pro2 img,
+.product-pro3 img,
+.product-pro4 img {
+    width: 270px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.product-pro1,
+.product-pro2,
+.product-pro3,
+.product-pro4 {
+    width: 300px;
+    height: 305px;
+}
+
+.product-pro1 p,
+.product-pro2 p,
+.product-pro3 p,
+.product-pro4 p {
+    width: 270px;
+}
+
+.product-pro del,
+.product-pro span {
+    margin-right: 15px;
+}
+
+.companion-brand {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+/* footer */
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(57, 53, 53, 0.921);
+    height: 350px;
+
+}
+
+.address img,
+.email img,
+.phone-number img {
+    width: 30px;
+}
+
+.logo-ft img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.ft-1 {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+
+}
+
+.ft-1,
+.ft-2,
+.ft-3,
+.ft-4,
+.ft-5 {
+    margin-top: 50px;
+}
+
+.ft-2,
+.ft-3,
+.ft-4,
+.ft-5 {
+    display: block;
+    text-align: left;
+}
+
+.ft-2 h4 span,
+.ft-3 h4 span,
+.ft-4 h4 span,
+.ft-5 h4 span {
+    color: #df9d17ef;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.ft-2 ul li,
+.ft-3 ul li,
+.ft-4 ul li,
+.ft-5 ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.ft-2 ul li a,
+.ft-3 ul li a,
+.ft-4 ul li a,
+.ft-5 ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.94);
+    font-size: smaller;
+    font-size: 13px;
+}
+
+.ft-2 ul li a:hover,
+.ft-3 ul li a:hover,
+.ft-4 ul li a:hover,
+.ft-5 ul li a:hover {
+    color: #bda87f;
+    text-decoration: underline;
+}
+
+.footer-banquyen {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.882);
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+}

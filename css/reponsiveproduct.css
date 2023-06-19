@@ -1,0 +1,271 @@
+@media only screen and (max-width: 768px) {
+    .container-header{
+        height: 40px;
+    }
+    .search {
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+    }
+    .search input{
+        display: none;
+    }
+
+    .search img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .off_input {
+        display: none;
+    }
+
+    .dangnhap a {
+        font-size: 10px;
+        width: 50px;
+        display: block;
+
+    }
+    #menu {
+        width: 100%;
+        height: 180px;
+        padding-right: 7%;
+    }
+    .dangky a {
+        font-size: 10px;
+        width: 40px;
+        display: block;
+
+    }
+
+    .form {
+        padding-left: 80px;
+    }
+
+    .menu {
+        z-index: 2;
+        position: relative;
+        top: 90px;
+         display: none;       
+        left: 40px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        height: 150px;
+        background-color: rgba(5, 7, 79, 0.93);
+        padding-left: 10px;
+        margin: 10px 0;
+
+    }
+
+    .menu ul li {
+        margin: 5px;
+        height: 20px;
+        text-align: center;
+        padding-left: 20%;
+
+    }
+    #menu {
+        width: 100%;
+        height: 180px;
+        padding-right: 8%;
+    }
+    .menu ul li a {
+        font-size: 10px;
+        text-align: center;
+        color: #ffffff;
+        padding-left: 0;
+    }
+    .icon-tabar{
+        position: relative;
+        left: 80px;
+        font-size: 20px;
+        display: block;
+    }
+    .logo img{
+        width: 80px;
+        height: 40px;
+        right: 100px;
+        position: relative;
+    }
+    .menu-header {
+
+        height: 80px;
+    }
+
+    /* product */
+    .title-news  {
+        height: 140px;
+    }
+    .title-news h1 {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .back_home ul{
+        padding-left: 10px;
+    }
+    .back_home ul li a{
+        font-size: 14px;
+    }
+    .news_danhmuc h3{
+        font-size: 15px;
+    }
+    .news_danhmuc img{
+        margin-left: 10px;
+    }
+    .news-update h3{
+        
+        font-size: 15px;
+        
+    }
+   
+    #pd_1{
+        margin-top: 30px;
+    }
+    #pd_1,
+    #pd_2,
+    #pd_3,
+    #pd_4,
+    #pd_5,
+    #pd_6,
+    #pd_7,
+    #pd_8{
+        margin-bottom: 180px;
+        position: relative;
+        right: 50%;
+    }
+    #pd_8{
+        margin-bottom: 80px;
+    }
+    #pd_1 img,
+    #pd_2 img,
+    #pd_3 img,
+    #pd_4 img,
+    #pd_5 img,
+    #pd_6 img, 
+    #pd_7 img, 
+    #pd_8 img {
+        width: 400px;
+        height: 300px;
+
+
+    }
+    .btn_product1 button,
+.btn_product2 button,
+.btn_product4 button,
+.btn_product3 button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #6d6a6a;
+    margin: 0 5px ;
+
+}
+.btn_product{
+    position: relative;
+    right: 30%;
+    
+}
+
+
+
+
+
+    /* footer     */
+    .container-footer {
+
+        height: 220px;
+
+    }
+
+    .logo-ft {
+        width: 100px;
+    }
+
+    .logo-ft img {
+        width: 70px;
+        height: 40px;
+    }
+
+    .ft-1,
+    .ft-2,
+    .ft-3,
+    .ft-4,
+    .ft-5 {
+        margin-top: 20px;
+    }
+
+    .address img,
+    .email img,
+    .phone-number img {
+        width: 10px;
+    }
+
+    .address address {
+        font-size: 10px;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .phone-number {
+        font-size: 10px;
+        width: 100px;
+        margin-bottom: 10px;
+
+    }
+
+    .email {
+        font-size: 10px;
+        width: 120px;
+        margin-bottom: 10px;
+    }
+
+    .ft-1 {
+        width: 100px;
+        height: 200px;
+
+
+    }
+
+    .ft-2 h4 span,
+    .ft-3 h4 span,
+    .ft-4 h4 span,
+    .ft-5 h4 span {
+        margin-left: 10px;
+        font-size: 12px;
+
+    }
+
+    .ft-2 ul li a,
+    .ft-3 ul li a,
+    .ft-4 ul li a,
+    .ft-5 ul li a {
+        font-size: 8px;
+
+    }
+
+    .ft-2 ul li,
+    .ft-3 ul li,
+    .ft-4 ul li,
+    .ft-5 ul li {
+        margin-bottom: 5px;
+    }
+
+    .ft-2 ul,
+    .ft-3 ul,
+    .ft-4 ul,
+    .ft-5 ul {
+        padding-left: 20px;
+    }
+
+    .footer-banquyen {
+        height: 30px;
+        padding-top: 5px;
+    }
+
+    .footer-banquyen p {
+        font-size: 8px;
+    }
+
+}

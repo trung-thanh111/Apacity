@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApCity</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reponsiveindex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-header">
+        <div class="search">
+            <input type="text" placeholder="Search" class="off_input">
+            <img src="image/search.png" alt="" width="20">
+        </div>
+        <div class="form">
+            <div class="search">
+                <img src="image/cart.png" alt="" width="25">
+            </div>
+            <div class="dangnhap"><a href="login.html">Đăng Nhập</a></div>
+            <div class="dangky"><a href="signup.html"> Đăng Ký</a></div>
+        </div>
+    </div>
+    <div class="menu-header">
+        <div class="logo" id="logo"><img src="image/logo.webp" alt=""></div>
+        <div class="icon-tabar" id="icon_tabar">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="menu" id="menu">
+            <ul>
+                <li><a href="index.html">TRANG CHỦ</a></li>
+                <li><a href="#">GIỚI THIỆU</a></li>
+                <li><a href="product.html">SẢN PHẨM</a></li>
+                <li><a href="news.html">TIN TỨC</a></li>
+                <li><a href="contact.html">LIÊN HỆ</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="container-nav">
+        <div class="nav-banner">
+            <div class="baner1">
+                <img src="image/slider_1.webp" alt="" id="banner" onclick="changeImage()">
+                <div class="btn">
+                    <button class="btn-1" id="btn_1" onclick="hinhanh1()">1</button>
+                    <button class="btn-2" id="btn_2" onclick="hinhanh2()">2</button>
+                    <button class="btn-3" id="btn_3" onclick="hinhanh3()">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="nav-product">
+            <div class="product-1"><img src="image/layer-1.webp" alt=""></div>
+            <div class="product-2"><img src="image/layer-2.webp" alt=""></div>
+            <div class="product-3"><img src="image/layer-3.webp" alt=""></div>
+        </div>
+        <div class="product-st1">
+            <h2>SẢN PHẨM BÁN CHẠY</h2>
+            <div class="product-hot">
+                <div class="hot-1"><img src="image/hot1.webp" alt="">
+                    <p> Căn hộ 2PN tại Pearl Plaza</p>
+                    <span>250.000.000₫</span>
+                </div>
+                <div class="hot-2"><img src="image/hot2.webp" alt="">
+                    <p> Căn hộ 3PN tại Pearl Plaza</p>
+                    <del>3.200.000.000₫ </del>
+                    <span>3.000.000.000₫</span>
+                </div>
+                <div class="hot-3"><img src="image/hot3.webp" alt="">
+                    <p> Bán căn hộ SSG Tower 3PN</p>
+                    <span>3.200.000.000₫</span>
+                </div>
+                <div class="hot-4"><img src="image/hot4.webp" alt="">
+                    <p>Bán căn hộ SSG Tower 2 PN</p>
+                    <span>3.000.000.000₫</span>
+                </div>
+                <div class="hot-5"><img src="image/hot5.webp" alt="">
+                    <p>Nhà phố đẹp 3 tầng khắc phục nắng hướng tây</p>
+                    <span>4.100.000.000₫</span>
+                </div>
+                <div class="hot-6"><img src="image/hot6.webp" alt="">
+                    <p>Nhà đẹp 2 tầng với thiết kế gần gũi thiên nhiên</p>
+                    <del>5.300.000.000₫</del>
+                    <span>5.000.000.000₫</span>
+                </div>
+            </div>
+            <div class="btn-product">
+                <button>XEM THÊM</button>
+            </div>
+        </div>
+        <div class="promotion-st2">
+            <div class="promotion">
+                <div class="background"></div>
+                <div class="promotion-news1">
+                    <img src="image/phone.png" alt="" width="50">
+                    <h4>MIỄN PHÍ VẬN CHUYỂN</h4>
+                    <p>Chúng tôi vận chuyển miễn phí với đơn hàng trên 1000.000đ</p>
+                </div>
+                <div class="promotion-news2">
+                    <img src="image/hopqua.png" alt="" width="50">
+                    <h4>KHUYẾN MẠI CUỐI TUẦN</h4>
+                    <p>Giảm giá tới 30% vào các ngày thứ 7 và chủ nhật hàng tuần</p>
+                </div>
+                <div class="promotion-news3">
+                    <img src="image/khien.png" alt="" width="50">
+                    <h4>HỖ TRỢ ĐỔI TRẢ</h4>
+                    <p>Hỗ trợ miễn phí đổi trả sản phẩm trong 30 ngày đầu tiên từ khi mua hàng
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="product-st3">
+            <h2>SẢN PHẨM NỔI BẬT</h2>
+            <div class="news-product">
+                <div class="menu-product">
+                    <ul>
+                        <li><a href="#">CĂN HỘ CAO CẤP</a></li>
+                        <li><a href="#">CĂN HỘ CHUNG CƯ</a></li>
+                        <li><a href="#">CĂN HỘ DỰ ÁN NỀN</a></li>
+                        <li><a href="#">VĂN PHÒNG CAO ỐC</a></li>
+                        <li><a href="#">NHÀ Ở KHU CAO TẦNG</a></li>
+                        <li><a href="#">NHÀ Ở KHU ĐÔ THỊ</a></li>
+                    </ul>
+                </div>
+                <div class="product-outstd">
+                    <div class="outstd-1">
+                        <img src="image/hot1.webp" alt="">
+                        <p> Căn hộ 2PN tại Pearl Plaza</p>
+                        <span>3.250.000.000₫</span>
+                    </div>
+                    <div class="outstd-2">
+                        <img src="image/hot4.webp" alt="">
+                        <p> Căn hộ 2PN tại Pearl Plaza</p>
+                        <del>3.300.000.000đ</del>
+                        <span>3.000.000.000₫</span>
+                    </div>
+                    <div class="outstd-3">
+                        <img src="image/hot5.webp" alt="">
+                        <p> Căn hộ 2PN tại Pearl Plaza</p>
+                        <span>3.750.000.000₫</span>
+                    </div>
+                    <div class="outstd-4">
+                        <img src="image/hot3.webp" alt="">
+                        <p> Căn hộ 2PN tại Pearl Plaza</p>
+                        <span>4.100.000.000₫</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feedback-st4">
+            <div class="background-2"></div>
+            <div class="feedbackto-user">
+                <img src="image/userfb.jpg" alt="">
+                <p>Tôi rất hài lòng với dịch vụ chuyên nghiệp và chất lượng sản phẩm cũng như
+                    thái độ phục vụ của
+                    Mendover.
+                    Chắc chắn rằng tôi sẽ quay lại đây nhiều lần nữa để mua hàng.</p>
+                <p>PHẠM NHẬT THÀNH</p>
+                <p>Web Designer</p>
+            </div>
+            <div class="btn-chuyen">
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+            <div class="promotion2-st5">
+                <h2>SẢN PHẨM KHUYẾN MÃI</h2>
+                <div class="arrows">
+                    <div class="left-arrow">
+                        <button>
+                            <</button>
+                    </div>
+                    <div class="right-arrow">
+                        <button>></button>
+                    </div>
+                </div>
+                <div class="product-pro">
+                    <div class="product-pro1">
+                        <img src="image/hot4.webp" alt="">
+                        <p>Nhà đẹp 2 tầng với thiết kế gần gũi thiên nhiên</p>
+                        <del>5.200.000.000đ</del>
+                        <span>5.000.000.000đ</span>
+                    </div>
+                    <div class="product-pro2">
+                        <img src="image/hot3.webp" alt="">
+                        <p>Mẫu nhà phố đẹp 5 tầng với tông màu đơn sắc</p>
+                        <del>4.200.000.000đ</del>
+                        <span>4.000.000.000đ</span>
+                    </div>
+                    <div class="product-pro3">
+                        <img src="image/hot6.webp" alt="">
+                        <p>Bán căn hộ Pearl Plaza 2 phòng ngủ tầng 15</p>
+                        <del>2.500.000.000đ</del>
+                        <span>2.200.000.000đ</span>
+                    </div>
+                    <div class="product-pro4">
+                        <img src="image/hot2.webp" alt="">
+                        <p>Căn hộ 3PN ở Pearl Plaza</p>
+                        <del>3.300.000.000đ</del>
+                        <span>3.000.000.000đ</span>
+                    </div>
+                </div>
+                <div class="companion-brand">
+                    <div class="brand-1">
+                        <img src="image/partler1.webp" alt="">
+                    </div>
+                    <div class="brand-2">
+                        <img src="image/partler2.webp" alt="">
+                    </div>
+                    <div class="brand-3">
+                        <img src="image/partler3.webp" alt="">
+                    </div>
+                    <div class="brand-4">
+                        <img src="image/partler4.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-footer">
+            <div class="ft-1">
+                <div class="logo-ft">
+                    <img src="image/logo.webp" alt="">
+                </div>
+                <div class="address">
+                    <address>
+                        <img src="image/vitriicon-removebg-preview.png" alt="">
+                        TTN5, Phường TTN, Quận 12,TP.HCM
+                    </address>
+                </div>
+                <div class="phone-number">
+                    <img src="image/iconphone-removebg-preview.png" alt=""> 0812720008
+                </div>
+                <div class="email">
+                    <img src="image/hopthu-removebg-preview.png" alt=""> info@gmail.com
+                </div>
+            </div>
+            <div class="ft-2">
+                <div class="acount">
+                    <h4>
+                        <span>TÀI KHOẢN</span>
+                    </h4>
+                    <ul>
+                        <li><a href="#">TRANG CHỦ</a></li>
+                        <li><a href="#">GIỚI THIỆU</a></li>
+                        <li><a href="#">SẢN PHẨM</a></li>
+                        <li><a href="#">TIN TỨC</a></li>
+                        <li><a href="#">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ft-3">
+                <div class="acount">
+                    <h4>
+                        <span>CHÍNH SÁCH</span>
+                    </h4>
+                    <ul>
+                        <li><a href="#">TRANG CHỦ</a></li>
+                        <li><a href="#">GIỚI THIỆU</a></li>
+                        <li><a href="#">SẢN PHẨM</a></li>
+                        <li><a href="#">TIN TỨC</a></li>
+                        <li><a href="#">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ft-4">
+                <div class="acount">
+                    <h4>
+                        <span>ĐIỀU KHOẢN</span>
+                    </h4>
+                    <ul>
+                        <li><a href="#">TRANG CHỦ</a></li>
+                        <li><a href="#">GIỚI THIỆU</a></li>
+                        <li><a href="#">SẢN PHẨM</a></li>
+                        <li><a href="#">TIN TỨC</a></li>
+                        <li><a href="#">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ft-5">
+                <div class="acount">
+                    <h4>
+                        <span>HƯỚNG DẪN</span>
+                    </h4>
+                    <ul>
+                        <li><a href="#">TRANG CHỦ</a></li>
+                        <li><a href="#">GIỚI THIỆU</a></li>
+                        <li><a href="#">SẢN PHẨM</a></li>
+                        <li><a href="#">TIN TỨC</a></li>
+                        <li><a href="#">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-banquyen">
+            <p>Bản Quyền Thuộc Về @Web Designer. Cung Cấp Bởi
+                ThanhTrung</p>
+        </div>
+        <!-- Code injected by live-server -->
+        <script>
+            // <![CDATA[  <-- For SVG support
+            if ('WebSocket' in window) {
+                (function () {
+                    function refreshCSS() {
+                        var sheets = [].slice.call(document.getElementsByTagName("link"));
+                        var head = document.getElementsByTagName("head")[0];
+                        for (var i = 0; i < sheets.length; ++i) {
+                            var elem = sheets[i];
+                            var parent = elem.parentElement || head;
+                            parent.removeChild(elem);
+                            var rel = elem.rel;
+                            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                            }
+                            parent.appendChild(elem);
+                        }
+                    }
+                    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                    var address = protocol + window.location.host + window.location.pathname + '/ws';
+                    var socket = new WebSocket(address);
+                    socket.onmessage = function (msg) {
+                        if (msg.data == 'reload') window.location.reload();
+                        else if (msg.data == 'refreshcss') refreshCSS();
+                    };
+                    if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                        console.log('Live reload enabled.');
+                        sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                    }
+                })();
+            }
+            else {
+                console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+            }
+	// ]]>
+        </script>
+</body>
+<script src="main.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#icon_tabar').click(function () {
+            $('#menu').slideToggle();
+        });
+    });
+</script>
+
+</html>
